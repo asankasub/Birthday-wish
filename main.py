@@ -24,8 +24,8 @@ with open(chosen_letter, 'r') as file:
 with open(chosen_letter, 'w') as file:
     file.write(letter)
 
-my_email = "alphwoodstock@gmail.com" 
-my_pass = "quebxagjxuawjoqm"
+my_email = "x" 
+my_pass = "x"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
