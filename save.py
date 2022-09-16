@@ -3,8 +3,8 @@
 
 # 4. Send the letter generated in step 3 to that person's email address.
 
-my_email = "alphwoodstock@gmail.com" 
-my_pass = "quebxagjxuawjoqm"
+my_email = "x" 
+my_pass = "x"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
